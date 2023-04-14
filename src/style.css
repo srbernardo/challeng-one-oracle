@@ -1,0 +1,219 @@
+html {
+  background-color: #dce6dc;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  color: #00464B;
+  display: flex;
+  margin: 40px;
+  height: 720px;
+  width: 1080px
+}
+
+#logo {
+  position: absolute;
+  height: 80px;
+  left: 40px;
+  top: 40px;
+}
+
+.entrada {
+  margin-top: 160px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+#mess1 {
+  background-color: transparent;
+  border: none;
+  height: 683px;
+  resize: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.saida {
+  background-color: #FFFFFF;
+  color: #495057;
+  width: 320px;
+  border-radius: 32px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.resposta {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  height: 720px;
+  justify-content: space-between;
+}
+
+#mess2 {
+  background-color: transparent;
+  border: none;
+  resize: none;
+  font-family: 'Inter';
+  width: 320px;
+  height: 550px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #495057;
+  padding: 0;
+  white-space: normal
+}
+
+#copiar {
+  align-self: flex-end;
+}
+
+.vazio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 328px;
+}
+
+#search {
+  width: 268px;
+}
+
+h1 {
+  color: #343A40;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+p {
+  color: #495057;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+span {
+  color: #495057;
+  height: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  margin-bottom: 16px;
+  display: flex;
+  align-content: center;
+}
+
+#aviso {
+  padding-right: 8px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  margin-bottom: 32px;
+  gap: 24px;
+}
+
+#criptografar, #descriptografar ,#copiar {
+  height: 67px;
+  width: 328px;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+#criptografar:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out ;
+}
+
+#descriptografar:hover ,#copiar:hover {
+  background-color: #7DC383;
+  transition: 0.3s ease-in-out ;
+  cursor: pointer;
+}
+
+#criptografar {
+  background-color: #00464B;
+  color: #FFFFFF;
+}
+
+#descriptografar {
+  background-color: #dce6dc;
+  color: #00464B;
+}
+
+
+/* Estilos para o footer */
+.site-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+  color: #00464B;
+  padding-top: 16px;
+}
+
+.site-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-footer ul li {
+  margin-bottom: 10px;
+}
+
+.site-footer ul li a {
+  color: #00464B;
+  text-decoration: none;
+}
+
+.site-footer .menu li {
+  display: inline-block;
+  margin-right: 20px;
+  padding-left: 16px;
+}
+
+.site-footer .bottom-bar {
+  background-color: #00464B;
+  padding: 1px 16px;
+}
+
+.site-footer .bottom-bar p {
+  font-size: 14px;
+  color: #ffffff;
+}
