@@ -1,6 +1,5 @@
 <div style=display:"flex" justify-items:"center">
 <h1 align="center"> Criptografia
-<img style="width: 50px" "height: 50px" src="https://user-images.githubusercontent.com/73710552/212481560-4eea0152-f4b9-45ab-bc96-26316eac1d97.jpg">
 </h1>
 </div>
 
