@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido usando as seguintes tecnologias:
 - JavaScript
 
 <div align="center">
-  <img  src="https://user-images.githubusercontent.com/73710552/212482373-614a20b0-d076-4a04-ac74-b1b257a39490.png">
+  <img  src="https://user-images.githubusercontent.com/73710552/232061822-d31c9fad-7d8b-4304-afec-67693ee7489b.jpeg">
 </div>
 
 ## Deploy
