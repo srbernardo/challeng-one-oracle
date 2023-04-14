@@ -25,4 +25,4 @@ Esse projeto foi desenvolvido usando as seguintes tecnologias:
 </div>
 
 ## Deploy
-Acesse o projeto em https://srbernardo.github.io/WSL2/projeto/HTML/jokenpo.html
+Acesse o projeto em https://srbernardo.github.io/challeng-one-oracle/
