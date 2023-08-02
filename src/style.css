@@ -14,7 +14,7 @@ body {
 
 main {
   color: #00464B;
-  display: flex;
+  display: flex !important;
   margin: 40px;
   height: 720px;
   width: 1080px
