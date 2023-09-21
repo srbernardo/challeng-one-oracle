@@ -10,6 +10,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 main {
@@ -17,7 +19,14 @@ main {
   display: flex !important;
   margin: 40px;
   height: 720px;
-  width: 1080px
+  width: 100vw;
+  flex-direction: column;
+}
+
+.principal {
+  display: flex;
+  padding-bottom: 36px;
+  justify-content: center;
 }
 
 #logo {
@@ -176,12 +185,11 @@ span {
   color: #00464B;
 }
 
-
-/* Estilos para o footer */
 .site-footer {
   position: relative;
   bottom: 0;
-  width: 100%;
+  right: 0;
+  width: 100vw;
   background-color: #ffffff;
   color: #00464B;
   padding-top: 16px;
@@ -216,4 +224,42 @@ span {
 .site-footer .bottom-bar p {
   font-size: 14px;
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+  }
+
+  .principal {
+    flex-direction: column;
+  }
+
+  .entrada {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    width: 385px;
+    margin-right: 0px;
+  }
+
+  .saida {
+    margin-bottom: 24px;
+  }
+
+  .site-footer {
+    width: 100vW;
+  }
+
+  #mess1 {
+    height: 150px;
+    position: relative;
+    top: 100px;
+    margin-top: 160px;
+    margin-bottom: 160px;
+  }
 }
