@@ -13,54 +13,44 @@
 </head>
 <body>
   <main>
-    <div class = "entrada">
-      <img src="./assets/logo.png" id = "logo" alt="">
-      <textarea id="mess1" placeholder="Digite seu texto"></textarea>
-      <span>
-        <img src="./assets/!.png" alt="" id = "aviso">
-        Apenas letras minúsculas e sem acento.
-      </span>
-      <div class = "buttons">
-        <button id = "criptografar" onclick="criptografar()">Criptografar</button>
-        <button id = "descriptografar" onclick="descriptografar()">Descriptografar</button>
-    </div>
-  </div>
-
-  <div class = "saida">
-    <div class = "resposta">
-      <textarea id="mess2" readonly></textarea>
-      <button id = "copiar" onclick="copiarTexto()">Copiar</button>
-    </div>
-
-    <div class="vazio">
-        <img id = "search" src="./assets/search.jpg" alt="">
-        <h1>Nenhuma mensagem encontrada</h1>
-        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-    </div>
-  </div>
-</main>
-<footer class="site-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <ul class="menu">
-          <li> <a id="currirulo" href="https://drive.google.com/file/d/1y_haUEoAxPS4l7k7eYLGQ1yXV0yDTclv/view?usp=sharing" target="_blank"> Currículo </a> </li>
-          <li> <a id="link" href="https://www.linkedin.com/in/bernardo-brotelli/" target="_blank"> Linkedln </a> </li>
-          <li> <a id="git" href="https://github.com/srbernardo" target="_blank"> GitHub </a> </li>
-        </ul>
+    <div class="principal">
+      <div class = "entrada">
+        <img src="./assets/logo.png" id = "logo" alt="">
+        <textarea id="mess1" placeholder="Digite seu texto"></textarea>
+        <span>
+          <img src="./assets/!.png" alt="" id = "aviso">
+          Apenas letras minúsculas e sem acento.
+        </span>
+        <div class = "buttons">
+          <button id = "criptografar" onclick="criptografar()">Criptografar</button>
+          <button id = "descriptografar" onclick="descriptografar()">Descriptografar</button>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="bottom-bar">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p>&copy; 2023 Bernardo Brotelli. Todos os direitos reservados.</p>
+      <div class = "saida">
+        <div class = "resposta">
+          <textarea id="mess2" readonly></textarea>
+          <button id = "copiar" onclick="copiarTexto()">Copiar</button>
+        </div>
+        <div class="vazio">
+          <img id = "search" src="./assets/search.jpg" alt="">
+          <h1>Nenhuma mensagem encontrada</h1>
+          <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+
+    <footer class="site-footer">
+      <ul class="menu">
+        <li> <a id="currirulo" href="https://drive.google.com/file/d/1y_haUEoAxPS4l7k7eYLGQ1yXV0yDTclv/view?usp=sharing" target="_blank"> Currículo </a> </li>
+        <li> <a id="link" href="https://www.linkedin.com/in/bernardo-brotelli/" target="_blank"> Linkedln </a> </li>
+        <li> <a id="git" href="https://github.com/srbernardo" target="_blank"> GitHub </a> </li>
+      </ul>
+      </div>
+      <div class="bottom-bar">
+        <p>&copy; 2023 Bernardo Brotelli. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </main>
 
   <script src="script.js"></script>
 </body>
